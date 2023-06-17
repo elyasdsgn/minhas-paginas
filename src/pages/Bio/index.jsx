@@ -1,8 +1,17 @@
-import React from 'react'
+import Header from "./partials/Header";
+import Hero from "./partials/Hero";
+import Botoes from "./partials/Botoes";
+import "./bio.scss";
 
 function Bio() {
   return (
-    <div>Bio</div>
+    <div className="bio d-flex">
+      <Header/>
+      <main>
+        <Hero/>
+        <Botoes/>
+      </main>
+    </div>
   )
 }
 

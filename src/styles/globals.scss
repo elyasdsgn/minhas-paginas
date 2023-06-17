@@ -14,8 +14,8 @@ body, html{
 
 //Seleção
 ::selection{
-  color: black;
-  background-color: #eaeaea;
+  color: var(--preto);
+  background-color: var(--vermelho);
 }
 
 
