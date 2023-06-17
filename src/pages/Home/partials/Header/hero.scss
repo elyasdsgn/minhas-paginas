@@ -1,0 +1,19 @@
+header{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero{
+  background-image: url("./assets/HERO.jpg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+
+.content{
+  width: 560px;
+  gap: 20px;
+}

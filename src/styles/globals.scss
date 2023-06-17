@@ -1,0 +1,50 @@
+// Normalize
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "medium";
+}
+
+body, html{
+  background-color: var(--preto);
+  color: var(--branco);
+}
+
+//Seleção
+::selection{
+  color: black;
+  background-color: #eaeaea;
+}
+
+
+
+// Classes
+.d-flex{
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+  width: 1140px;
+  margin: 40px;
+}
+
+.button{
+  padding: 20px 24px;
+  display: block;
+  width: 380px;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgb(255, 13, 0);
+  font-family: "bold";
+  border: 0;
+  transition: .4s;
+
+
+
+  &:hover{
+    background-color: rgb(96, 5, 0);
+  }
+}

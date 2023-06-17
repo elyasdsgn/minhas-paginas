@@ -1,0 +1,35 @@
+// ELEMENTOS
+
+h1{
+  font-family: "bold";
+  font-size: 38px;
+}
+h2{
+  font-family: "medium";
+  font-size: 28px;
+}
+p{
+  font-family: "regular";
+  font-size: 18px;
+}
+
+a{
+  text-decoration: none;
+  color: #eaeaea;
+}
+
+input{
+  background-color: transparent;
+  border: 2px solid red;
+  height: 50px;
+  padding: 20px;
+  font-size: 16px;
+  color: #eaeaea
+}
+
+main{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
