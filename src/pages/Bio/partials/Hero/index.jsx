@@ -1,4 +1,4 @@
-import eu from '../../assets/eu.png'
+import eu from '../../assets/eu.jpg'
 import "./hero.scss"
 
 function Hero() {
