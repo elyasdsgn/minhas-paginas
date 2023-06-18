@@ -4,6 +4,7 @@ import Converta from "./partials/Converta"
 import Social from "./partials/Social"
 import Bio from "./partials/Bio"
 import Faq from "./partials/Faq"
+import Portfolio from "./partials/Portfolio"
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
         <Converta/>
         <Social/>
         <Bio/>
+        <Portfolio/>
         <Faq/>
       </main>
     </>
