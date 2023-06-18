@@ -1,8 +1,8 @@
 .converta {
   align-items: center;
   background-image: url("../../assets/bgs/bg-converte-desktop.jpg");
-  background-position: top center;
-  background-size: cover;
+  background-position: bottom center;
+  background-size: 70%;
   background-repeat: no-repeat;
 
   h2 {
@@ -42,6 +42,8 @@
 
 @media (max-width: 700px) {
   .converta {
+  background-size: cover;
+
     h2 {
       width: 80%;
     }
