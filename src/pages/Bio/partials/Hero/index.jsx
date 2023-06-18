@@ -7,7 +7,7 @@ function Hero() {
       <span>Eleve o padrão da sua marca! 🔥🚀</span>
       <div className="eu">
         <div className="conteudo">
-          <img src={eu} alt="" />
+          <img src={eu} alt="foto" />
         </div>
       </div>
       <h1>Elyas Rodrigues</h1>
