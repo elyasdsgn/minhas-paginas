@@ -1,0 +1,38 @@
+.bioParceiro{
+  height: 550px;
+  background-image: url("../../assets/bgs/bg-bio-desktop.jpg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .content{
+    margin-right: 8%;
+    float: right;
+    max-width: 410px;
+    p{
+      line-height: 26px;
+      margin-top: 20px;
+    }
+  }
+}
+
+@media (max-width: 768px){
+  .bioParceiro{
+    background-image: url("../../assets/bgs/bg-bio-mobile.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    .content{
+      text-align: center;
+      padding-top: 80%;
+      margin: 0 auto;
+      float: none;
+      max-width: 410px;
+      p{
+        line-height: 26px;
+        margin-top: 20px;
+      }
+    }
+  }
+}

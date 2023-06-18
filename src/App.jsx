@@ -4,8 +4,7 @@ import Bio from './pages/Bio';
 // import "aos/dist/aos.css"
 
 import { createBrowserRouter, RouterProvider, Navigate} from 'react-router-dom'
-// import { useEffect } from 'react';
-// import { useEffect } from 'react'
+
 
 const router = createBrowserRouter([
   {
@@ -23,16 +22,6 @@ const router = createBrowserRouter([
 ])
 
 function App() {
-  // useEffect(() => {
-  //   AOS.init()
-
-  //   //Bloquear o arrasta das imagens
-  //   document.addEventListener('dragstart', (evento) => evento.preventDefault(), false)
-  //   document.addEventListener('drop', (evento) => evento.preventDefault(), false)
-
-  // }, [])
-  
-
   return (
     <>
       <RouterProvider

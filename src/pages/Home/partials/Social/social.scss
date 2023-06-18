@@ -1,0 +1,22 @@
+.social{
+  text-align: center;
+
+  .pablo{
+    margin-bottom: 140px;
+    gap: 10px;
+    p:first-child{
+      font-size: 24px;
+      font-family: var(--semibold);
+    }
+  }
+  .ctaPablo{
+    gap: 37px;
+    h2{
+      max-width: 668px;
+      width: 92%;
+      span{
+        color: var(--vermelho);
+      }
+    }
+  }
+}
