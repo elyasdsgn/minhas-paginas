@@ -1,25 +1,31 @@
-.converta{
+.converta {
   align-items: center;
+  background-image: url("../../assets/bgs/bg-converte-desktop.jpg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
 
-  h2{
+  h2 {
     margin: 0 auto;
     text-align: center;
     max-width: 451px;
     width: 100%;
-    span{
+    span {
       color: var(--vermelho);
     }
   }
 
-  .cards{
+  .cards {
     margin-top: 70px;
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(3, 200px);
     gap: 25px;
-
-    .item-converta{
-      background-color: blue;
+    
+    .item-converta {
+      position: relative;
+      background-color: rgba(0, 0, 0, 0.681);
+      backdrop-filter: blur(15px);
       border-radius: 8px;
       width: 200px;
       height: 200px;
@@ -30,37 +36,25 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      
     }
   }
 }
 
-@media (max-width: 700px){
-  .converta{
-    h2{
+@media (max-width: 700px) {
+  .converta {
+    h2 {
       width: 80%;
     }
-  
-    .cards{
+
+    .cards {
       margin: 50px 20px;
       display: flex;
       flex-direction: column;
       align-items: center;
-  
-      .item-converta{
-        background-color: blue;
-        border-radius: 8px;
+
+      .item-converta {
         max-width: 300px;
         width: 100%;
-        height: 200px;
-        padding: 20px;
-        text-align: center;
-        gap: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        
       }
     }
   }
