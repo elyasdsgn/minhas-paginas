@@ -1,6 +1,19 @@
 .portfolio{
   text-align: center;
+  
   .redes-sociais{
+    height: 80px;
+    flex-direction: row;
+    margin: 14px 0 20px 0;
+    gap: 25px;
+    a{
+      img{
+        width: 48px;
+        filter: invert(1);
+      }
+    }
+  }
+  a{
     margin: 40px 0;
   }
 }

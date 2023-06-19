@@ -1,4 +1,8 @@
 .paginas{
+  p{
+    margin-bottom: 40px;
+    text-decoration: underline;
+  }
   .cards-paginas{
     display: grid;
     grid-template-columns: repeat(3, 320px);

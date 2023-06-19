@@ -1,0 +1,30 @@
+.criativos-portfolio{
+  max-width: 1080px;
+  width: 100%;
+  justify-content: center;
+
+  .criativos-cards{
+    margin: 10px 0;
+    width: 100%;
+  }
+  P{
+    margin: 40px 0;
+    text-decoration: underline;
+  }
+}
+
+@media (max-width: 1100px){
+  .criativos-portfolio{
+    max-width: 810px;
+  }
+}
+@media (max-width: 840px){
+  .criativos-portfolio{
+    max-width: 540px;
+  }
+}
+@media (max-width: 540px){
+  .criativos-portfolio{
+    max-width: 260px;
+  }
+}
