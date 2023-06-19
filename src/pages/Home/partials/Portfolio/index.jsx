@@ -1,3 +1,4 @@
+import Criativos from "../../components/Criativos"
 import Paginas from "../../components/Paginas"
 import "./portfolio.scss"
 
@@ -12,6 +13,7 @@ function Portfolio() {
             <a href="#">behas</a>
           </div>
           <Paginas/>
+          <Criativos/>
         </div>
       </div>
     </section>
