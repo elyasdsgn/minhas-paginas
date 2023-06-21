@@ -4,7 +4,7 @@
   margin: 0;
   box-sizing: border-box;
   outline: none;
-  font-family: "semibold";
+  font-family: "Montserrat";
 }
 
 body, html{
@@ -73,7 +73,7 @@ body, html{
     text-align: center;
     cursor: pointer;
     background-color: var(--vermelho);
-    font-family: "bold";
+    font-weight: 700;
     border: 0;
     transition: .4s;
     border-radius: 4px;
