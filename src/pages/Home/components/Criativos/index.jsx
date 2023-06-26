@@ -17,10 +17,12 @@ import gym6 from "../../assets/trabalhos/criativos/gym6.webp"
 import gym7 from "../../assets/trabalhos/criativos/gym7.webp" 
 import gym8 from "../../assets/trabalhos/criativos/gym8.webp" 
 import gym9 from "../../assets/trabalhos/criativos/gym9.webp" 
-import est1 from "../../assets/trabalhos/criativos/est1.webp" 
-import est2 from "../../assets/trabalhos/criativos/est2.webp" 
-import est3 from "../../assets/trabalhos/criativos/est3.webp" 
-import est4 from "../../assets/trabalhos/criativos/est4.webp" 
+import imp1 from "../../assets/trabalhos/criativos/import1.webp"
+import imp2 from "../../assets/trabalhos/criativos/import2.webp"
+import imp3 from "../../assets/trabalhos/criativos/import3.webp"
+import imp4 from "../../assets/trabalhos/criativos/import4.webp"
+import imp5 from "../../assets/trabalhos/criativos/import5.webp"
+import imp6 from "../../assets/trabalhos/criativos/import6.webp"
 
 import "./criativos.scss";
 
@@ -57,6 +59,24 @@ function Criativos() {
       {/* LINHA 1 */}
       <div className="criativos-cards">
         <Carrossel settings={settings}>
+          <SwiperSlide>
+            <CreativeCard creativeImg={desenv1}/>
+          </SwiperSlide>
+          <SwiperSlide>
+            <CreativeCard creativeImg={desenv2}/>
+          </SwiperSlide>
+          <SwiperSlide>
+            <CreativeCard creativeImg={desenv3}/>
+          </SwiperSlide>
+          <SwiperSlide>
+            <CreativeCard creativeImg={desenv4}/>
+          </SwiperSlide>
+          <SwiperSlide>
+            <CreativeCard creativeImg={desenv5}/>
+          </SwiperSlide>
+          <SwiperSlide>
+            <CreativeCard creativeImg={desenv6}/>
+          </SwiperSlide>
           <SwiperSlide>
             <CreativeCard creativeImg={desenv1}/>
           </SwiperSlide>
@@ -113,16 +133,40 @@ function Criativos() {
       <div className="criativos-cards">
         <Carrossel settings={settings}>
           <SwiperSlide>
-            <CreativeCard creativeImg={est1}/>
+            <CreativeCard creativeImg={imp1}/>
           </SwiperSlide>
           <SwiperSlide>
-            <CreativeCard creativeImg={est2}/>
+            <CreativeCard creativeImg={imp2}/>
           </SwiperSlide>
           <SwiperSlide>
-            <CreativeCard creativeImg={est3}/>
+            <CreativeCard creativeImg={imp3}/>
           </SwiperSlide>
           <SwiperSlide>
-            <CreativeCard creativeImg={est4}/>
+            <CreativeCard creativeImg={imp4}/>
+          </SwiperSlide>
+          <SwiperSlide>
+            <CreativeCard creativeImg={imp5}/>
+          </SwiperSlide>
+          <SwiperSlide>
+            <CreativeCard creativeImg={imp6}/>
+          </SwiperSlide>
+          <SwiperSlide>
+            <CreativeCard creativeImg={imp1}/>
+          </SwiperSlide>
+          <SwiperSlide>
+            <CreativeCard creativeImg={imp2}/>
+          </SwiperSlide>
+          <SwiperSlide>
+            <CreativeCard creativeImg={imp3}/>
+          </SwiperSlide>
+          <SwiperSlide>
+            <CreativeCard creativeImg={imp4}/>
+          </SwiperSlide>
+          <SwiperSlide>
+            <CreativeCard creativeImg={imp5}/>
+          </SwiperSlide>
+          <SwiperSlide>
+            <CreativeCard creativeImg={imp6}/>
           </SwiperSlide>
         </Carrossel>
       </div>

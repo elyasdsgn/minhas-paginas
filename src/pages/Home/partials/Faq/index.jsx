@@ -14,15 +14,15 @@ function Faq() {
           <div className="perguntas">
             <Perguntas
               pergunta="Quais serviços você oferece?"
-              resposta="Minha especialidade é criação de páginas, mas também faço social media, como posts para feed, story, carrosséis..."
+              resposta="Sou especialista em carrosséis, criativos de alto padrão e também faço Landing Pages"
             />
             <Perguntas
               pergunta="Qual o tipo de página que você faz?"
               resposta="As principais páginas para lançamento (página de vendas, página de captura, página de obrigado), mas caso você queira outro tipo de página podemos combinar pelo whatsApp."
             />
             <Perguntas
-              pergunta="Você faz a copy das páginas?"
-              resposta="Não. É essencial que você tenha um copywriter qualificado para que sua página tenha sucesso."
+              pergunta="Você faz a copy das páginas ou criativos?"
+              resposta="Não. É essencial que você tenha um copywriter qualificado para que sua produto alcance o sucesso desejado."
             />
             <Perguntas
               pergunta="Qual o prazo para entrega?"
@@ -30,7 +30,7 @@ function Faq() {
             />
             <Perguntas
               pergunta="Se eu não gostar do projeto, posso pedir alteração?"
-              resposta="Claro. Antes da implementação não terá limite de alterações, desde que o bom senso permaneça e não fuja do briefing."
+              resposta="Claro. Antes da entrega não terá limite de alterações, desde que o bom senso permaneça e não fuja do briefing."
             />
           </div>
         </div>

@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../../assets/bgs/bg-hero-desktop.jpg");
+  background-image: url("../../assets/bgs/bg-hero-desktop.webp");
 
   background-position: top center;
   background-size: cover;
@@ -32,7 +32,7 @@
 
 @media (max-width: 768px){
   .hero{  
-    background-image: url("../../assets/bgs/bg-hero-mobile.jpg");
+    background-image: url("../../assets/bgs/bg-hero-mobile.webp");
     .content{
       padding-top: 70%;
       margin: 0 auto;

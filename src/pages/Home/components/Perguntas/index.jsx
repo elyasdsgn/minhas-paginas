@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./perguntas.scss";
-// import seta from '../../../assets/faq/seta.svg'
+import seta from '../../assets/icons/seta.svg'
 
 function Perguntas({pergunta, resposta}) {
   const [mostrarResposta, setMostrarResposta] = useState(false);
@@ -15,7 +15,7 @@ function Perguntas({pergunta, resposta}) {
         className={`pergunta ${mostrarResposta ? "ativa" : ""}`}
         onClick={showResposta}
       >
-          {/* <img src={seta} alt="" className={mostrarResposta ? "rotate" : ""}/>  */}
+          <img src={seta} alt="" className={mostrarResposta ? "rotate" : ""}/> 
         <h3>
           {pergunta}
         </h3>
