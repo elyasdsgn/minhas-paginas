@@ -23,6 +23,14 @@ import imp3 from "../../assets/trabalhos/criativos/import3.webp"
 import imp4 from "../../assets/trabalhos/criativos/import4.webp"
 import imp5 from "../../assets/trabalhos/criativos/import5.webp"
 import imp6 from "../../assets/trabalhos/criativos/import6.webp"
+import odonto1 from "../../assets/trabalhos/criativos/odonto1.webp"
+import odonto2 from "../../assets/trabalhos/criativos/odonto2.webp"
+import odonto3 from "../../assets/trabalhos/criativos/odonto3.webp"
+import odonto4 from "../../assets/trabalhos/criativos/odonto4.webp"
+import odonto5 from "../../assets/trabalhos/criativos/odonto5.webp"
+import odonto6 from "../../assets/trabalhos/criativos/odonto6.webp"
+import odonto7 from "../../assets/trabalhos/criativos/odonto7.webp"
+import odonto8 from "../../assets/trabalhos/criativos/odonto8.webp"
 
 import "./criativos.scss";
 
@@ -167,6 +175,35 @@ function Criativos() {
           </SwiperSlide>
           <SwiperSlide>
             <CreativeCard creativeImg={imp6}/>
+          </SwiperSlide>
+        </Carrossel>
+      </div>
+      {/* LINHA 4 */}
+      <div className="criativos-cards">
+        <Carrossel settings={settings}>
+          <SwiperSlide>
+            <CreativeCard creativeImg={odonto1}/>
+          </SwiperSlide>
+          <SwiperSlide>
+            <CreativeCard creativeImg={odonto2}/>
+          </SwiperSlide>
+          <SwiperSlide>
+            <CreativeCard creativeImg={odonto3}/>
+          </SwiperSlide>
+          <SwiperSlide>
+            <CreativeCard creativeImg={odonto4}/>
+          </SwiperSlide>
+          <SwiperSlide>
+            <CreativeCard creativeImg={odonto5}/>
+          </SwiperSlide>
+          <SwiperSlide>
+            <CreativeCard creativeImg={odonto6}/>
+          </SwiperSlide>
+          <SwiperSlide>
+            <CreativeCard creativeImg={odonto7}/>
+          </SwiperSlide>
+          <SwiperSlide>
+            <CreativeCard creativeImg={odonto8}/>
           </SwiperSlide>
         </Carrossel>
       </div>
