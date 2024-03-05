@@ -1,6 +1,6 @@
-import insta from "../../assets/instagram.jpg"
-import behas from "../../assets/behas.jpg"
-import zap from "../../assets/zap.jpg"
+import insta from "../../assets/instagram2.jpg"
+import behas from "../../assets/behas2.jpg"
+import zap from "../../assets/zap2.jpg"
 import {Link} from "react-router-dom"
 import "./botoes.scss"
 
