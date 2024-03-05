@@ -8,7 +8,7 @@ import "./botoes.scss"
 function Botoes() {
   return (
     <section className="botoes d-flex">
-      <Link to="https://wa.me/98988149744?text=Olá, vim pelo seu site e preciso de ajuda!!">
+      <Link to="https://wa.me/98988149744?text=Opa, vim pelo seu insta e quero fazer um orçamento!">
         <img src={zap} alt="zap"  className="cardBio"/>
       </Link>
       <Link to="https://www.behance.net/elyasdsgn" target={"_blank"}>
